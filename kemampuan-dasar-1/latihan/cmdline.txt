@@ -1,0 +1,51 @@
+1. cd
+jealls@DewiM:~$ cd Git
+jealls@DewiM:~/Git$
+
+2. echo
+jealls@DewiM:~$ echo "Good Morning"
+Good Morning
+
+3. cat
+jealls@DewiM:~$ cat env.txt
+display manager = gm3, dengan perintah cat /etc/X11/default-display-manager
+window manager = GNOME SHELL, dengan perintah wmctrl -m
+desktop environment = ubuntu, dengan perintah env | grep XDG_CURRENT_DESKTOP
+shell = bash, dengan perintah echo $
+
+4. ls
+jealls@DewiM:~$ ls
+cmdline.txt  Desktop  Documents  Downloads  env.txt  examples.desktop  Git  kernel-linux.txt  Music  Pictures  Public  Templates  Videos
+
+5. ls -a
+jealls@DewiM:~$ ls -a
+.              .bashrc      Desktop    examples.desktop  .ICEauthority     Music     sample.txt                 Videos
+..             .cache       Documents  Git               kernel-linux.txt  Pictures  .ssh
+.bash_history  cmdline.txt  Downloads  .gitconfig        .local            .profile  .sudo_as_admin_successful
+.bash_logout   .config      env.txt    .gnupg            .mozilla          Public    Templates
+
+
+6.rm
+jealls@DewiM:~$ rm sample.txt
+jealls@DewiM:~$ ls -a
+.              .bashrc      Desktop    examples.desktop  .ICEauthority     Music     .ssh
+..             .cache       Documents  Git               kernel-linux.txt  Pictures  .sudo_as_admin_successful
+.bash_history  cmdline.txt  Downloads  .gitconfig        .local            .profile  Templates
+.bash_logout   .config      env.txt    .gnupg            .mozilla          Public    Videos
+
+7. mkdir
+jealls@DewiM:~$ mkdir praxis
+jealls@DewiM:~$ ls
+cmdline.txt  Documents  env.txt           Git               Music     praxis  Templates
+Desktop      Downloads  examples.desktop  kernel-linux.txt  Pictures  Public  Videos
+
+8. mv
+jealls@DewiM:~$ mv env.txt praxis
+jealls@DewiM:~$ ls praxis/
+env.tx
+
+9. clear
+membersihkan command yang ditampilkan terminal
+
+10. man man
+menampilkan manual pager

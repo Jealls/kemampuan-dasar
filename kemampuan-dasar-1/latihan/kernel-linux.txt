@@ -1,0 +1,14 @@
+
+Kernel berada pada folder /boot dimana menyimpan konfigurasi dan file-file yang berhubungan dengan proses boothing, kernel dan file lain yang diperlukan LILO dan GRUB boot manager.
+
+file-file terkait dengan kernel di folder boot
+(1)lost+found = menyediakan sistem lost+found untuk file yang berada dibawah direktori root
+(2)grub (GNU Grand Unfied Bootloader) = boot loader yang digunakan untuk loading, atau menyimpan 	sistem operasi ke dalam koputer saat komputer dinyalakan.
+(3) config-5.0.0-23-generic 
+(4) vmlinuz-5.0.0-23-generic = kernel linux executable
+(5) System.map-5.0.0-23-generic
+(6)initrd.img-5.0.0-23-generic =sistem file root sementara yang sudah terpasang selama boot sistem untuk mendukung proses dual boot
+(7)memtest86+.bin
+(8)memtest86+.elf
+(9)memtest86+_multiboot.bin
+(10)System.map-5.0.0-23-generic=

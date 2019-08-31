@@ -1,0 +1,5 @@
+Ubuntu =masuk ke sistem ubuntu
+Advance option for Ubuntu = akan menampilkan daftar kernel
+Memori test (memtest86+)
+Memori test (memtest86+, serial console 115200)
+Windows 8 (o /dev/sda1)
